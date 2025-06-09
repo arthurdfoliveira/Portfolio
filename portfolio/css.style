@@ -1,0 +1,45 @@
+:root {
+  --bg: #f5f3f3;
+  --text: #040404;
+  --accent: #1e0036;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+header, footer {
+  background-color: var(--accent);
+  color: #ffffff;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+main {
+  padding: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: inherit;
+}
+a {
+  color: #3e87f5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
